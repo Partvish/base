@@ -25,4 +25,5 @@ public class TrainSystem {
 		return user;
 	}
 
+	private TrainUser getUserPrivately() { return user; }
 }
