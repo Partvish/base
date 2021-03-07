@@ -26,4 +26,6 @@ public class TrainSystem {
 	}
 
 	private TrainUser getUserPrivately() { return user; }
+
+	private TrainUser secondPrivateFunction() { return new TrainUserImpl(controller); }
 }
