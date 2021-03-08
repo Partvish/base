@@ -23,7 +23,7 @@ public class TrainSystem {
 
 	public TrainUser getUser() {
 		return user;
-	}
+
 
 	private TrainUser getUserPrivately() { return user; }
 }
