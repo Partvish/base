@@ -52,7 +52,7 @@ public class TrainSystemTest {
 
 	@Test
 	public void testExerciseNumber(){
-		Assert.assertEquals(5, user.getExerciseNumber());
+		Assert.assertEquals(6, user.getExerciseNumber());
 	}
 	
 }
