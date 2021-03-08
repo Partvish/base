@@ -50,5 +50,9 @@ public class TrainSystemTest {
 		Assert.assertEquals(0, controller.getReferenceSpeed());
 	}
 
+	@Test
+	public void testExerciseNumber(){
+		Assert.assertEquals(5, user.getExerciseNumber());
+	}
 	
 }
