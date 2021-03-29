@@ -4,9 +4,12 @@ public interface TrainUser {
 
 	int getJoystickPosition();
 
-	boolean getAlarmFlag();
 
 	void overrideJoystickPosition(int joystickPosition);
 
 	int getExerciseNumber();
+
+	boolean getAlarmState();
+
+	void setAlarmState(boolean alarmState);
 }

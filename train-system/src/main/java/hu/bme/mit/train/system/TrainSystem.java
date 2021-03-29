@@ -27,6 +27,4 @@ public class TrainSystem {
 	public TrainUser getUser() { return user; }
 
 	public TrainTachograph getTachograph() { return tachograph; }
-
-	private TrainUser getUserPrivately() { return user; }
 }
